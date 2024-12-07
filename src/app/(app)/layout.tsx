@@ -51,8 +51,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
   } = fetchedData
 
   return {
-    baiduSiteVerification: 'codeva-ykneRne4fp',
-    [`msvalidate.01`]: `AAAEBC04349A4F850345DDFEBFA4AA1C`,
     metadataBase: new URL(url.webUrl),
     title: {
       template: `%s - ${seo.title}`,
